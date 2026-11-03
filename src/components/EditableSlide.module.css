@@ -1,0 +1,27 @@
+.outer {
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: top left;
+    overflow: hidden;
+    user-select: none;
+}
+
+.item {
+    position: absolute;
+    cursor: move;
+}
+
+.handle {
+    position: absolute;
+    background: #1a73e8;
+    border: 1px solid #ffffff;
+    cursor: nwse-resize;
+}

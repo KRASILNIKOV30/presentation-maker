@@ -1,0 +1,29 @@
+.panel {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 240px;
+    padding: 16px;
+    border-left: 1px solid #d8dee4;
+    background: #fafbfc;
+    overflow-y: auto;
+}
+
+.title {
+    margin: 0 0 4px;
+    font-size: 16px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    font-size: 14px;
+}
+
+.divider {
+    width: 100%;
+    border: none;
+    border-top: 1px solid #d8dee4;
+}

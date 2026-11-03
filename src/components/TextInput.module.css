@@ -1,0 +1,27 @@
+.input {
+    padding: 6px 10px;
+    border: 1px solid #c4cdd5;
+    border-radius: 6px;
+    background: #ffffff;
+    color: #1f2933;
+    font: inherit;
+    font-size: 14px;
+}
+
+.input:focus {
+    outline: 2px solid #90b4f5;
+    outline-offset: 0;
+    border-color: #4c82e0;
+}
+
+.color {
+    width: 48px;
+    height: 32px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.input:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}

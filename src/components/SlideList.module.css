@@ -1,0 +1,52 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 220px;
+    padding: 12px 8px;
+    border-right: 1px solid #d8dee4;
+    background: #fafbfc;
+    overflow-y: auto;
+}
+
+.item {
+    display: flex;
+    gap: 6px;
+    padding: 6px;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.item:hover {
+    background: #eef2f6;
+}
+
+.active {
+    border-color: #4c82e0;
+    background: #e3edfc;
+}
+
+.index {
+    width: 16px;
+    font-size: 12px;
+    color: #52606d;
+}
+
+.thumbnail {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    min-width: 0;
+}
+
+.thumbnail > div {
+    border: 1px solid #c4cdd5;
+}
+
+.name {
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

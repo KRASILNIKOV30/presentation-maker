@@ -1,0 +1,28 @@
+.panel {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title {
+    margin: 0;
+    font-size: 14px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 14px;
+}
+
+.sizeControls {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.sizeInput {
+    width: 70px;
+    min-width: 0;
+}
